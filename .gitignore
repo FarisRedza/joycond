@@ -8,3 +8,10 @@ install_manifest.txt
 .ccls-cache
 build
 compile_commands.json
+debian/*
+!debian/source
+!debian/changelog
+!debian/control
+!debian/copyright
+!debian/rules
+!debian/postinst
